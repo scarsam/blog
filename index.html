@@ -1,0 +1,9 @@
+---
+layout: default
+---
+{% for post in site.posts %}
+<article>
+  <h1>{{ post.title }} &mdash; {{ post.date | date_to_string }}</h1>
+  {{ post.content }}
+</article>
+{% endfor %}
