@@ -1,5 +1,10 @@
-install:
-  - gem install jekyll
+sudo: false
+language: ruby
+cache: bundler
+rvm:
+- 2.1.1
+install:  
+- gem install jekyll
 before_script:
   # Replace with the line that travis encrypt-file printed out
   - openssl aes-256-cbc ...
