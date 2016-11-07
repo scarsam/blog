@@ -1,7 +1,13 @@
 # Build settings
 markdown: kramdown
+username: scarsam
+repo: https://github.com/scarsam/blog.git
+branch: master
+relative_source: ../YOUR_REPOSITORY_NAME/
+destination: ../YOUR_REPOSITORY_NAME-pages/
 gems:
   - jekyll-feed
 exclude:
   - Gemfile
   - Gemfile.lock
+  - vendor
