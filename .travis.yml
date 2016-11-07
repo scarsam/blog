@@ -1,14 +1,26 @@
-sudo: false
-language: ruby
-cache: bundler
-rvm:
-- 2.1.1
 install:
-- bundle install
-script: bundle exec rake site:deploy --quiet
+  - gem install jekyll
+before_script:
+  # Replace with the line that travis encrypt-file printed out
+  - openssl aes-256-cbc ...
+  - chmod go-rwx .travisdeploykey
+  - eval `ssh-agent -s`
+  - ssh-add .travisdeploykey
+  - git config user.name "Travis-CI"
+  - git config user.email "noreply@travis-ci.org"
+  - COMMIT_MESSAGE="Publishing site on `date "+%Y-%m-%d %H:%M:%S"` from
+    `git log -n 1 --format='commit %h - %s'`"
+
+script:
+  - set -e
+  - jekyll build # Or jekyll build or whatever command you use to generate your site
+  - git checkout -b site # Replace master with gh-pages if applicable
+  - git add -f _site/ # Replace _site/ with the build's output directory
+  - 'git commit -m "${COMMIT_MESSAGE}"'
+  - git filter-branch -f --subdirectory-filter _site/ # Again, replace _site/
+  # Obviously, replace with your repo's SSH URL and the appropriate branch
+  - git push -f https://github.com/scarsam/blog.git master:master
+
 branches:
   only:
-  - master
-env:
-  global:
-    secure: kXbh/ljmNQcNy9+4J2rVK/QcMql906cWd5v7urYMQTERZkD25rHn2VyUWU4xzKXoxJbWmotHxswcm6FJq8C8jrWe+U8qs/OcHfD5LkwKWyWbjP9qoJwJsnPSQCRg1cQKhS5IzAazolrOdkeM7L6SisZDoiKqiOWu64DZNZ18jndNL+3beZsRP+bssY+AIG+XvaQ9kI4N65HJ4lM5ml72ge4E0ONybiwBUESu5Iuic03pla2sRZ74mWufTgWnrdrDr9oJPOjbhFP/z14NiRDuMrAnShW299qFB2PRlCMBjV9YMs9CFMEEgq84diyXXvXMecFwDSFX3nEzfonUosMnlB5Y/0h8UoiPMxChB+wyaVVGNrqGoZ5jyVevNxrDSN1XrZCT5vYVK7/DfEtKFjuVKK5Z2BGKqEfbtg2fc4KisHEbQjY/OO7vSMCJXXHbaW98fRDQYNGYl2WjEnAkl4ss3yF0vbw81/eZOGo3RvwAQthH9nqFq+PPBuNGlvx9iUPLvKAAmXk5aDW7SwvT8uPrUhcm74jY98ZwlXM89m3dg2cKQZq73L/v4UPV9A2G5891upH4Qk8Hj3Oy9xsAZcus3wB8aFHCK7KcTCAqOjvX6SMhTDHDIg9fHif3LcfoX6iyq6sUqQeWlTSpJIrx2dmxxpGFDtv5BfoCKmfpXtvER3U=
+    - master
