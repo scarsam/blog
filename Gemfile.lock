@@ -29,6 +29,9 @@ GEM
       rb-inotify (~> 0.9, >= 0.9.7)
     mercenary (0.3.6)
     minima (2.0.0)
+    net-sftp (2.1.2)
+      net-ssh (>= 2.6.5)
+    net-ssh (3.2.0)
     pathutil (0.14.0)
       forwardable-extended (~> 2.6)
     rb-fsevent (0.9.7)
@@ -37,6 +40,8 @@ GEM
     rouge (1.11.1)
     safe_yaml (1.0.4)
     sass (3.4.22)
+    travis-custom-deploy (0.0.6)
+      net-sftp (~> 2.1.2)
 
 PLATFORMS
   ruby
@@ -45,6 +50,7 @@ DEPENDENCIES
   jekyll (= 3.3.0)
   jekyll-feed (~> 0.6)
   minima (~> 2.0)
+  travis-custom-deploy (~> 0.0.6)
 
 RUBY VERSION
    ruby 2.2.1p85
