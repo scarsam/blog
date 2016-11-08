@@ -1,12 +1,18 @@
 ---
 ---
 /**
+ * Import style components
+ */
+ 
+ @import "colors";
+
+/**
  * Basic styling
  */
 
 body {
   font: 400 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #111;
+  color: $text-color-body;
   background-color: #fdfdfd;
   -webkit-text-size-adjust: 100%;
   -webkit-font-feature-settings: "kern" 1;

@@ -1,6 +1,9 @@
 # Build settings
 markdown: kramdown
 
+sass:
+    sass_dir: css/_components
+
 gems:
   - jekyll-feed
 exclude:
