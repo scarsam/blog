@@ -1,0 +1,20 @@
+---
+layout: default
+title:  "Document your code"
+---
+In this example I wanted to show how great documentation could be. This makes it a lot easier for other developers to read and use the code. The two most used comment systems are `//` which let you make  comment on 1 row and `/* text */` which could be seperated into multiple lines.
+
+
+{% highlight java %}
+import javax.swing.*;
+
+public class NameDialog {
+	public static void main (String[] arg) {
+		String firstname, surname, greeting; // Declaring variables to String
+		firstname = JOptionPane.showInputDialog("What is your first name?"); // Input will be stored in variable firstname
+		surname = JOptionPane.showInputDialog("What is your surname?"); // Input will be stored in variable surname
+		greeting = "Welcome " + firstname + " " + surname; // Variable greeting will store message Welcome + input from firstname and surname
+		JOptionPane.showMessageDialog(null, greeting); // Creating a message dialog with the stored varibles in greeting
+	}
+}
+{% endhighlight %}

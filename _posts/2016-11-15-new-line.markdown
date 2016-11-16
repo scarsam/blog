@@ -1,0 +1,15 @@
+---
+layout: default
+title:  "\n New line"
+---
+By adding `\n` somewhere in the string it will automatically do a line break. The computer won't render this code and it will not be visible when you execute your Java program.
+
+{% highlight java %}
+import javax.swing.*;
+
+public class NameAddressPhone {
+	public static void main (String[] arg) {
+		JOptionPane.showMessageDialog(null, "Sam Ojling" + "\n1325 Mason st" + "\n415.321.9307");
+	}
+}
+{% endhighlight %}
