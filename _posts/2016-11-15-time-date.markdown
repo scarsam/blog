@@ -13,5 +13,4 @@ public class TimeDate {
 		JOptionPane.showMessageDialog(null, "Date and Time:\n" + Calendar.getInstance().getTime().toString());
 	}
 }
-
 {% endhighlight %}
