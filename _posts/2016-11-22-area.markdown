@@ -1,0 +1,21 @@
+---
+layout: default
+title:  "Calculate area and circle"
+---
+Placeholder
+
+{% highlight java %}
+import javax.swing.*;
+
+public class Fivehundred2 {
+	public static void main (String[] arg) {
+    String s;
+    s = JOptionPane.showInputDialog("Radien?");
+    double r = Double.parseDouble(s);
+    double omkr = 2 * 3.1415926536 * r;
+    double area = 3.1415926536 * r * r;
+    JOptionPane.showMessageDialog(null, 
+                "Omkrets: " + omkr + "\nArea: " + area);
+	}
+}
+{% endhighlight %}
