@@ -17,7 +17,7 @@ green     #859900  operators, other keywords
 }
 
 figure {
-  border: 1px solid #e8e8e8;
+  border: 1px solid #A6A6A8;
   background-color: #002b36;
   border-radius: 3px;
 	margin: 0 auto;
@@ -47,6 +47,7 @@ pre {
 
 .highlight {
   background-color: #002b36;
+  border-radius: 3px;
   color: #93a1a1;
   .c { /* Comment */
     color: #586e75;

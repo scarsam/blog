@@ -4,85 +4,22 @@
  * Import style components
  */
 
- @import "colors";
- @import "code-snippets";
-
+@import "colors";
+@import "code-snippets";
+@import "typography";
+@import "links";
 
 /**
  * Basic styling
  */
 
-body {
-  font: 400 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: $text-color-body;
-  background-color: #fdfdfd;
-  -webkit-text-size-adjust: 100%;
-  -webkit-font-feature-settings: "kern" 1;
-  -moz-font-feature-settings: "kern" 1;
-  -o-font-feature-settings: "kern" 1;
-  font-feature-settings: "kern" 1;
-  font-kerning: normal;
+ body {
+  background-color: $background-color;
+ }
+
+article {
+  margin: 50px 0px;
 }
-
-/**
- * Set `margin-bottom` to maintain vertical rhythm
- */
-
-h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure, .highlight {
-  margin-bottom: 15px;
-}
-
-/**
- * Lists
- */
-
-ul, ol {
-  margin-left: 30px;
-}
-
-li > {
-  ul, ol {
-    margin-bottom: 0;
-  }
-}
-
-/**
- * Links
- */
-
-a {
-  color: #2a7ae2;
-  text-decoration: none;
-  &:visited {
-    color: #1756a9;
-  }
-  &:hover {
-    color: red;
-    text-decoration: underline;
-  }
-}
-
-/**
- * Blockquotes
- */
-
-blockquote {
-  color: #828282;
-  border-left: 4px solid #e8e8e8;
-  padding-left: 15px;
-  font-size: 18px;
-  letter-spacing: -1px;
-  font-style: italic;
-  > :last-child {
-    margin-bottom: 0;
-  }
-}
-
-/**
- * Code formatting
- */
-
-
 
 /**
  * Wrapper
@@ -110,8 +47,3 @@ blockquote {
     padding-left: 15px;
   }
 }
-
-/**
- * Syntax highlighting styles
- */
-
