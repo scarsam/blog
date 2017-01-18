@@ -8,6 +8,7 @@
 @import "code-snippets";
 @import "typography";
 @import "links";
+@import "cards";
 
 /**
  * Basic styling
@@ -17,8 +18,19 @@
   background-color: $background-color;
  }
 
-article {
-  margin: 50px 0px;
+/**
+ * Main
+ */
+
+main {
+  display: flex;
+  flex-flow: row wrap;
+  height: 100%;
+  padding: 0 20px;
+  article {
+    display: flex;
+    width: 20%;
+  }
 }
 
 /**

@@ -1,11 +1,11 @@
 {% include header.html %}
-<div class="wrapper">
-  <article>
-    {% for post in site.posts %}
-    <a href="{{ post.url }}">
-      <h1>{{ post.title }}</h1>
-    </a>
-    {% endfor %}
-  </article>
-</div>
+<main>
+  {% for post in site.posts %}
+    <article>
+      <a class="cards" href="{{ post.url }}">
+        <h1>{{ post.title }}</h1>
+      </a>
+    </article>
+  {% endfor %}
+</main>
 {% include footer.html %}
