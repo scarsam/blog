@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: posts
 title:  "Price with and without tax"
 ---
 Placeholder

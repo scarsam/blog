@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: posts
 title:  "Substring method"
 ---
 Here I'm using `substring` to take out part of the string and put into another varible.

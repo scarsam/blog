@@ -1,20 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-	  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <title>Homework</title>
-    <link rel="stylesheet" href="./css/normalize.css">
-    <link rel="stylesheet" href="./css/styles.css">
-    <link rel="canonical" href="http://localhost:4000/">
-    
-</head>
- <body>
-    <div class="wrapper">
-        {{ content }}
-    </div>
-  </body>
-
-</html>
+{% include header.html %}
+<div class="wrapper">
+  <article>
+    {% for post in site.posts %}
+    <a href="{{ post.url }}">
+      <h1>{{ post.title }}</h1>
+    </a>
+    {% endfor %}
+  </article>
+</div>
+{% include footer.html %}

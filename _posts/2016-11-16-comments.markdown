@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: posts
 title:  "Document your"
 ---
 In this example I wanted to show how great documentation could be. This makes it a lot easier for other developers to read and use the code. The two most used comment systems are `//` which let you make  comment on 1 row and `/* text */` which could be seperated into multiple lines. I'm also passing the input value from `JOptionPane.showInputDialog()` into the variables firstname and surname. I then combine the strings through the operators to create a sentence.

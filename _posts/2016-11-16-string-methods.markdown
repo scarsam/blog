@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: posts
 title:  "Substring and other methods"
 ---
 Here I'm using `trim()` to remove unecessary spaces before and after my string, `lastIndexOf` to find the first of whatever is declared inside () in this case (' ') a space and `indexOf` that will find the first character that I'm asking for, in this case ('-'). After that I'm using substring to remove the part of the numbers I want by using `int` variable and then putting them together with the operators in this case `+`.

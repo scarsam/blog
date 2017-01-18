@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: posts
 title:  "Time and date substring"
 ---
 Here I wanted to just get the time from `Calendar.getInstance().getTime().toString();`. I used `.indexOf(':');` to find the : that the time was using and then did a substring -2 and +6 to move out just the time from the `Calendar.getInstance().getTime().toString();`

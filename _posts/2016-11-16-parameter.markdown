@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: posts
 title:  "Parameter values"
 ---
 By running `JOptionPane.showMessageDialog(null, [1], [2], [3]);` By changing one of these 3 parameters (null being default) you will get different results.

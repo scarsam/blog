@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: posts
 title:  "Declare same variable type"
 ---
 Here I have 4 string varibles with different names. Instead of saying that each of them is a string on each row I delcare them all the same varible type in this case `string` at the same time with: `String name, address, phone, info;`.

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: posts
 title:  "System information"
 ---
 With this code I'm able to combine a string `"You're running"` with the command `System.getProperty("os.name")`. Putting code together like this could be done with `+` and these are called operators, there is multiple operators to choose from.

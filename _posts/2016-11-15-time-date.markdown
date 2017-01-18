@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: posts
 title:  "Print time and date"
 ---
 With the library `java.util` you will be able to run command like `Calendar.getInstance().getTime().toString()` this will print out the day and time from your computer. To get this printed in a dialog we wrap it inside the `JOptionPane.showMessageDialog(null, {date/time command here}`.

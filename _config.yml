@@ -1,6 +1,9 @@
 # Build settings
 markdown: kramdown
 
+# Url structure 
+permalink: /:categories/:title.html
+
 sass:
     sass_dir: css/_components
 
