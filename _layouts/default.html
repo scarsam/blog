@@ -3,7 +3,11 @@
   {% for post in site.posts %}
     <article>
       <a class="cards" href="{{ post.url }}">
+        <p class="dates">{{ post.date | date: "%m/%d/%Y" }}</p>
         <h1>{{ post.title }}</h1>
+        {% for tag in post.tags %}
+        <p class="tags">{{ post.tags | sort | join: ", " }}</p>
+        {% endfor %}
       </a>
     </article>
   {% endfor %}
