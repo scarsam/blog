@@ -1,6 +1,7 @@
 ---
 layout: posts
 title:  "Dialog x2"
+tags: Java
 ---
 This code is very similar to the first code I wrote, but this one will show two dialogs after each other instead.
 

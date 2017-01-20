@@ -1,6 +1,7 @@
 ---
 layout: posts
 title:  "Char with 3 variables"
+tags: Java
 ---
 Same as previous `char` example but this time including 3 variables instead of 2.
 

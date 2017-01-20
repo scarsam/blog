@@ -1,6 +1,7 @@
 ---
 layout: posts
 title:  "Calculate area and circle"
+tags: Java
 ---
 Placeholder
 

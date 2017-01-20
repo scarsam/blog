@@ -1,6 +1,7 @@
 ---
 layout: posts
 title:  "First name uppercase dialog"
+tags: Java
 ---
 In this example I have the user input their full name like this (Lastname, Firstname). I then look up the character , and add +1 and substring it from the fullname to swap the order of the input.
 

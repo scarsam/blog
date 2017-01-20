@@ -1,6 +1,7 @@
 ---
 layout: posts
 title:  "Monthly cost for your mobile plan"
+tags: Java
 ---
 Placeholder
 

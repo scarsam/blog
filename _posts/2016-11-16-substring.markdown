@@ -1,6 +1,7 @@
 ---
 layout: posts
 title:  "Substring method"
+tags: Java
 ---
 Here I'm using `substring` to take out part of the string and put into another varible.
 

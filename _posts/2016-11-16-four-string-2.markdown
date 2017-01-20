@@ -1,6 +1,7 @@
 ---
 layout: posts
 title:  "Another way of declaring varibles"
+tags: Java
 ---
 In this case I declare each variable on a new row and assign it a value for example: `String name = "Sam"`;. With this method It's a lot more clear what kind of varible type each varible is.
 

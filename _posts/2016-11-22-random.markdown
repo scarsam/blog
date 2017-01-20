@@ -1,6 +1,7 @@
 ---
 layout: posts
 title:  "Create a random number"
+tags: Java
 ---
 Placeholder
 

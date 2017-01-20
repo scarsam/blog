@@ -1,6 +1,7 @@
 ---
 layout: posts
 title:  "\n New line"
+tags: Java
 ---
 By adding `\n` somewhere in the string it will automatically do a line break. The computer won't render this code and it will not be visible when you execute your Java program.
 

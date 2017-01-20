@@ -1,6 +1,7 @@
 ---
 layout: posts
 title:  "Highest temprature and max temprature?"
+tags: Java
 ---
 Placeholder
 

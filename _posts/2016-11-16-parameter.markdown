@@ -1,6 +1,7 @@
 ---
 layout: posts
 title:  "Parameter values"
+tags: Java
 ---
 By running `JOptionPane.showMessageDialog(null, [1], [2], [3]);` By changing one of these 3 parameters (null being default) you will get different results.
 1. Needs to be included, text here will show up in the middle of the dialog.

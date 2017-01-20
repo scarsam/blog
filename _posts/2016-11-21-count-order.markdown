@@ -1,6 +1,7 @@
 ---
 layout: posts
 title:  "Counting words and order of the words"
+tags: Java
 ---
 In this example I'm counting all the characters and also display which word that gets displayed first and last in the order.
 

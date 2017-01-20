@@ -1,6 +1,7 @@
 ---
 layout: posts
 title:  "Char"
+tags: Java
 ---
 In this example I'm using `char` instead of `string` which I currently have been using. `Char` is a single character while `String` is multiple characters. So `Char` is a letter while String is a collection of letters. `Char` is a primitive type, `String` is a class. In this example I'm assigning a unicode with an escape sequence `\` to create letters that you don't see on your keyboard. These could be found on www.unicode.org. I'm assigning this character to the varible `c1` then I'm making it lower case and passing it to varible `c2` then I'm printing them after each other. This will results in c1 being uppercase and c2 being lowercase.
 
