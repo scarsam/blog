@@ -4,6 +4,8 @@ markdown: kramdown
 # Url structure 
 permalink: /:categories/:title.html
 
+baseurl: /blog
+
 sass:
     sass_dir: css/_components
 

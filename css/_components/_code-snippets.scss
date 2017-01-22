@@ -13,8 +13,8 @@ green     #859900  operators, other keywords
 */
 
 .highlighter-rouge {
-	background-color: #EBE9E9;
-  color: #A6A6A8;
+	background-color: $grey;
+  color: $bluegrey;
 }
 
 figure {
@@ -50,6 +50,7 @@ pre {
   background-color: #002b36;
   border-radius: 3px;
   color: #93a1a1;
+  tab-size: 2 !important;
   .c { /* Comment */
     color: #586e75;
   }

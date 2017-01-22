@@ -7,18 +7,14 @@ body {
   font-family: "Roboto", Helvetica, Arial, sans-serif;
 }
 
-h1 {
-	color: $bluegrey;
+p {
 	font-size: 16px;
-	font-weight: normal;
-	margin-bottom: 10px;
+  line-height: 1.5em;
 }
 
-.dates {
-	color: #A593E0;
-	font-size: 10px;
-	left: 15px;
-	top: 10px;
-	position: absolute;
-	margin: 0px;
+h1 {
+	color: $bluegrey;
+	font-size: 14px;
+	font-weight: normal;
+	margin-bottom: 10px;
 }
