@@ -2,8 +2,7 @@
 markdown: kramdown
 
 # Url structure 
-permalink: /:categories/:title.html
-
+permalink: /blog/:title.html
 baseurl: /blog
 
 sass:
