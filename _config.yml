@@ -2,9 +2,8 @@
 markdown: kramdown
 
 # Url structure 
-permalink: /blog/:title.html
+permalink: /blog/:title
 baseurl: /blog
-
 sass:
     sass_dir: css/_components
 
