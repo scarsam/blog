@@ -10,11 +10,17 @@ body {
 p {
 	font-size: 16px;
   line-height: 1.5em;
+  margin: 0px;
 }
 
 h1 {
 	color: $bluegrey;
 	font-size: 14px;
 	font-weight: normal;
+	margin-bottom: 10px;
+}
+
+h4 {
+	color: $bluegrey;
 	margin-bottom: 10px;
 }

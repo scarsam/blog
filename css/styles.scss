@@ -17,6 +17,10 @@
  * Basic styling
  */
 
+.q-and-a {
+  padding: 10px 0;
+}
+
 /**
  * Main
  */
@@ -55,6 +59,7 @@ main {
   margin-left: auto;
   padding-right: 30px;
   padding-left: 30px;
+  padding-bottom: 30px;
   &:after {
     content: "";
     display: table;
