@@ -1,0 +1,88 @@
+---
+layout: posts
+title:  "Prompts"
+tags: Javascript
+---
+
+#### Question:
+What is the keyword that displays a box requesting user input?
+
+#### Answer:
+`prompt`
+
+#### Question:
+What is the keyword in a statement that shares most of the syntax of a prompt statement?
+
+#### Answer:
+`alert`
+
+#### Question:
+What do you need in order to capture a user's input in a prompt box? Answer with one word.
+
+#### Answer:
+variable
+
+#### Question:
+`var gender = prompt(askGender, bestGuess);`
+In the above statement, what is optional?
+
+#### Answer:
+`bestGuess`
+
+#### Question:
+Code a prompt that specifies a string as the message. Assign the user's response to a variable that hasn't been declared beforehand.
+
+#### Answer:
+{% highlight javascript %}
+	var msg = prompt(" ");
+	var test = msg;
+{% endhighlight %}
+
+
+#### Question:
+Code a prompt that specifies a string as the message. Include a default input. Assign the user's response to a variable that hasn't been declared beforehand.
+
+#### Answer:
+{% highlight javascript %}
+	var name = prompt("Enter parrot name", "Polly");
+{% endhighlight %}
+
+#### Question:
+Code a prompt that specifies a variable as the message and assigns the user's response to a variable that hasn't been declared beforehand.
+
+#### Answer:
+{% highlight javascript %}
+	var response = prompt(question);
+{% endhighlight %}
+
+#### Question:
+Code a prompt that specifies a variable as the message, a second variable as the default response, and assigns the user's response to a third variable that hasn't been declared beforehand.
+
+#### Answer:
+{% highlight javascript %}
+	var respond = "hello";
+	var msg = prompt(hello, respond);
+	var final = msg;
+{% endhighlight %}
+
+#### Question:
+Live coding exercise:
+1) Display a prompt, including both a message and a default response.
+2) Display the user's response in an alert.
+
+#### Answer:
+{% highlight javascript %}
+	var response = prompt("Enter your favorite color", "red");
+	alert(response);
+{% endhighlight %}
+
+#### Question:
+Live coding exercise:
+In a single statement...
+1) Code an alert that displays...
+2) ...the concatenation of a response to a prompt plus a string.
+
+#### Answer:
+{% highlight javascript %}
+	alert(prompt("What is your favorite color?") + " is your favorite color.");
+{% endhighlight %}
