@@ -1,0 +1,106 @@
+---
+layout: posts
+title:  "Arrays"
+tags: Javascript
+---
+
+#### Question:
+What is a variable that represents a list of values? Answer with one word.
+
+#### Answer:
+array
+
+#### Question:
+An array comprises any number of ______. ("Values" would be correct, but I'm looking for another word.)
+
+#### Answer:
+elements
+
+#### Question:
+The number inside the square brackets is the element's ____.
+
+#### Answer:
+index
+
+#### Question:
+In an array, the numbering starts with __.
+
+#### Answer:
+0.
+
+#### Question:
+Create an array with a single element, a string. The array hasn't been declared beforehand.
+
+#### Answer:
+{% highlight javascript %}
+
+var hello = ["dance"];
+
+{% endhighlight %}
+
+#### Question:
+Create an array with three elements that are numbers. It hasn't been declared beforehand.
+
+#### Answer:
+{% highlight javascript %}
+
+var a = [1, 2, 3];
+
+{% endhighlight %}
+
+#### Question:
+Assign to a variable the first element of an array. The variable hasn't been declared beforehand.
+
+#### Answer:
+{% highlight javascript %}
+
+var mealExpense = expenses[0];
+
+{% endhighlight %}
+
+#### Question:
+Create an array with three elements: a number, a string, and a variable. The array has been declared beforehand.
+
+#### Answer:
+{% highlight javascript %}
+
+var a = [7, "DANCE", hello];
+
+{% endhighlight %}
+
+#### Question:
+Create an array with two string elements. Then assign the last element in the array to a variable. Neither the array nor the variable have been declared beforehand.
+
+#### Answer:
+{% highlight javascript %}
+
+var twoString = ["dance", "hello"];
+var lastString = twoString[1];
+
+{% endhighlight %}
+
+#### Question:
+Live coding exercise:
+1) Declare an array with three elements.
+2) Display the last element in an alert.
+
+#### Answer:
+{% highlight javascript %}
+
+var a = [1, 2, 7];
+alert(a[2]);
+
+{% endhighlight %}
+
+#### Question:
+Live coding exercise:
+1) Declare an array with four elements.
+2) Display the first element in an alert.
+
+#### Answer:
+{% highlight javascript %}
+
+var a = [1, 2, 3, 4];
+alert(a[0]);
+
+{% endhighlight %}
