@@ -23,11 +23,8 @@ The loop is to run 10 times. Fill in the blank, using either of the 2 acceptable
 `for (var i = 0; _____; i++) {`
 
 #### Answer:
-{% highlight javascript %}
+`i <= 9` or `i < 10`
 
-i <= 9` or `i < 10
-
-{% endhighlight %}
 
 #### Question:
 The counter is to increment after each loop. Fill in the blank.
