@@ -1,6 +1,6 @@
 ---
 layout: posts
-title:  "Rounding numberss"
+title:  "Rounding numbers"
 tags: Javascript
 ---
 
