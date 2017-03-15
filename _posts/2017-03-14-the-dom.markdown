@@ -1,0 +1,170 @@
+---
+layout: posts
+title:  "The DOM"
+tags: Javascript
+---
+
+#### Question:
+What is the three-character designation for the organization chart of a web page?
+
+#### Answer:
+`DOM` aka Document Object Model.
+
+#### Question:
+What does `DOM` stand for? Answer in lowercase.
+
+#### Answer:
+document object model
+
+#### Question:
+In one word, what is the top level of the DOM?
+
+#### Answer:
+`document`
+
+#### Question:
+What is the second level of the DOM? (lowercase)
+
+#### Answer:
+`html`
+
+#### Question:
+Name either of the levels under the html level of the DOM. (lowercase)
+
+#### Answer:
+`head` and `body`
+
+#### Question:
+In one word, what generates the DOM?
+
+#### Answer:
+browser
+
+#### Question:
+People are the units of a company organization chart. What are the units of the DOM?
+
+#### Answer:
+`nodes`
+
+#### Question:
+Assuming the DOM has been cleaned of junk artifacts, how many nodes are in this markup? (Answer with a numeral.)
+{% highlight javascript %}
+<div>
+  <h3>Age-old problem</h3>
+  <p>
+    So many nodes, so little time.
+  </p>
+</div>
+{% endhighlight %}
+
+#### Answer:
+5 `div`, `h3`, heading text, `p`, paragraph text.
+
+#### Question:
+What type of node do you see first here?
+{% highlight javascript %}
+<div>
+  <h3>Age-old problem</h3>
+  <p>
+    So many nodes, so little time.
+  </p>
+</div>
+{% endhighlight %}
+
+#### Answer:
+`element`
+
+#### Question:
+How many element nodes do you see in this markup? (Answer with a numeral.)
+{% highlight javascript %}
+<div>
+  <h3>Age-old problem</h3>
+  <p>
+    So many nodes, so little time.
+  </p>
+</div>
+{% endhighlight %}
+
+#### Answer:
+3 `div`, `h3`, and `p`
+
+#### Question:
+What type of node is the fifth one you see here?
+{% highlight javascript %}
+<div>
+  <h3>Age-old problem</h3>
+  <p>
+    So many nodes, so little time.
+  </p>
+</div>
+{% endhighlight %}
+
+#### Answer:
+Paragraph text.
+
+#### Question:
+The three types of nodes you've learned about are element, text, and ________.
+
+#### Answer:
+document
+
+#### Question:
+What type of node is inside these opening and closing tags?
+{% highlight javascript %}
+  <title>................</title>
+{% endhighlight %}
+
+#### Answer:
+text
+
+#### Question:
+Assuming this is the only content on the web page, and that it's a bare-bones web page like the one we've been using as an example, without a title, and that there are no junk artifacts, how many nodes does the web page have? (Answer with a numeral.)
+{% highlight javascript %}
+<p>
+  Not much to report.
+</p>
+{% endhighlight %}
+
+#### Answer:
+6 `document`, `html`, `head`, `body`, `p`, paragraph text
+
+#### Question:
+Assuming this is the only content on the web page, and that it's a bare-bones web page like the one we've been using as an example, without a title, how many element nodes does the web page have?
+{% highlight javascript %}
+<p>
+  Not much to report.
+</p>
+{% endhighlight %}
+
+#### Answer:
+4 `html`, `head`, `body`, `p`
+
+#### Question:
+Type the opening tag for the first element node.
+
+#### Answer:
+<html>
+
+#### Question:
+Type the opening tag for the last required element node.
+
+#### Answer:
+<body>
+
+#### Question:
+If an image is placed under a div, what type of node is it placed under?
+
+#### Answer:
+element
+
+#### Question:
+What type of node contains all other nodes?
+
+#### Answer:
+document
+
+#### Question:
+Among the nodes you've learned about, which type would be the lowest-level type in the DOM?
+
+#### Answer:
+text
