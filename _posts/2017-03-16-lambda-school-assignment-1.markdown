@@ -19,9 +19,13 @@ Feynman Writing Prompts - Write out explanations of the following concepts like 
 * Variables
   * Variable is like a box that can store things in. You can name your box whatever you want and at a later stage refer to the name of the box to see what's in it.
 * Strings
+  * Strings is the same as text, to create a string you need to put it into single or double quotation marks. So if you want to write something in plain text remember to include the quotation marks.
 * Functions (arguments, return)
+  * Functions is something you put around your code to make it reusable, it's a set of statements that perform something, example task or a calculation. You can pass in different arguments to change the code inside the function and when you want to see what the result of the function is you tell the function to return the value.
 * if statements
+  * If statements is useful if you want to test a statement, you can test a lot of different things. Depending on the answer of the question you can have the program run a different set of code.
 * Boolean values (true, false)
+  * Boolean values is answering if something is either `true` or `false`. It can be a question like `Is your age 12?` or it can check if something is looking good like if the user enters an email for example, it will then return the value `true`.
 
 #### Question:
 Return num after multiplying it by ten.
