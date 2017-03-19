@@ -42,7 +42,7 @@ Get the name of a node that has been assigned to the variable `targetNode` and a
 In a single statement get the name of the second child of an element with the id "d2" and assign it to the variable `child2`, which hasn't been declared beforehand.
 
 #### Answer:
-`{% highlight javascript %}
+{% highlight javascript %}
 var child2 = document.getElementById("d2").childNodes[1].nodeName;
 {% endhighlight %}`
 
@@ -50,11 +50,11 @@ var child2 = document.getElementById("d2").childNodes[1].nodeName;
 Check the name of the variable `nodeToCheck` to see if it's a text node. If so, get its text content (value) and assign it to the variable `content`, which hasn't been declared beforehand.
 
 #### Answer:
-`{% highlight javascript %}
+{% highlight javascript %}
 if (nodeToCheck.nodeName === "#text") {
   var content = nodeToCheck.nodeValue;
 }
-{% endhighlight %}`
+{% endhighlight %}
 
 #### Question:
 Code the first line of an if statement that tests if a node assigned to the variable `mysteryNode` is a link. Assume that the name is in uppercase.
