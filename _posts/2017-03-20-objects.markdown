@@ -1,0 +1,75 @@
+---
+layout: posts
+title:  "Objects"
+tags: Javascript
+---
+
+#### Question:
+What do you call a value that is attached to an object? (one word)
+
+#### Answer:
+property
+
+#### Question:
+The object is `lot31`. One of its properties is `size`. How do you refer to the property in code?
+
+#### Answer:
+`lot31.size`
+
+#### Question:
+With what 2 characters do you end the definition of an object and its properties?
+
+#### Answer:
+`};`
+
+#### Question:
+Code the first line of an object definition. Give the object any legal variable name.
+
+#### Answer:
+`var objTest = {`
+
+#### Question:
+Assign the property of an object to a variable that hasn't been declared beforehand.
+
+#### Answer:
+`var x = dance.size;`
+
+#### Question:
+Assign two properties to an object.
+
+#### Answer:
+{% highlight javascript %}
+var speech = {
+  duration: 90,
+  rating: 0
+};
+{% endhighlight %}
+
+#### Question:
+Define an object which has 2 properties. The first property is a string. The second property is a whole number.
+
+#### Answer:
+{% highlight javascript %}
+var speech = {
+  title: "Where You Come Up Short",
+  rating: 0
+};
+{% endhighlight %}
+
+#### Question:
+Code the first line of an `if` statement that tests whether the `qty` property of the object `product` is greater than 1,000.
+
+#### Answer:
+`if (product.qty > 1000) {`
+
+#### Question:
+Define an object that has 3 properties that are some combination of strings and numbers.
+
+#### Answer:
+{% highlight javascript %}
+var dance = {
+  txt: "string",
+  nbr: 15,
+  txt2: "hello"
+};
+{% endhighlight %}
