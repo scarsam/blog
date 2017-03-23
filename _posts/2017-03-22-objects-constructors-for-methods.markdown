@@ -26,7 +26,7 @@ Calling a constructor function, `MakeObj`, create an object, `simpleObj`. The ca
 A constructor doesn't necessarily need any values to be passed in order to create an object with no properties and one method. A method can and often is created without taking any values passed from the code that calls the constructor. Of course, this would be a trivial use for a constructor, since all objects it creates would be identical.
 
 #### Question:
-`this`
+The method definition in a constructor has three features that a one-off literal definition doesn't have. Two of them are = in the definition and ; after the closing curly bracket. What is the third feature? (5 characters)
 
 #### Answer:
 `this`
